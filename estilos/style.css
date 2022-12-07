@@ -61,7 +61,7 @@ footer {
     position: absolute;
     top: 100%;
     width: 100vw;
-    height: 30px;
+    height: 40px;
     transform: translate(0%, -100%);
     background-color: white;
     border-radius: 15px 15px 0px 0px;
