@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*
+Typical Device BreakPoints
+----------------------------
+Extra small devices (phones, 600px and down)
+Small devices (portrait tablets and large phones, 600px and up)
+Medium devices (landscape tablets, 768px and up)
+Large devices (laptops/desktops, 992px and up)
+Extra large devices (large laptops and desktops, 1200px and up)
+ */
+
+ @media only screen and (min-width: 768px) {
+    section {
+        width: 70vw;
+    }
+    div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: right;
+        width: 60%;
+        height: 100%;
+        padding: 45px;
+    }
+
+ }
+
+ @media only screen and (min-width: 992px) {
+
+    section {
+        width: 60vw;
+    }
+
+ }
+
+ @media only screen and (min-width: 1200px) {
+
+    section {
+        width: 55vw;
+    }
+
+    div#imagem {
+        width: 50%;
+    }
+
+    div#formulario {
+        width: 50%;
+    }
+ }
+

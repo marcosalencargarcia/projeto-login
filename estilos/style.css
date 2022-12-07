@@ -38,6 +38,7 @@ section {
     height: 500px;
     overflow: hidden;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.256);
+    transition: width .3s, height .3s;
 }
 
 div#imagem {
@@ -53,7 +54,7 @@ div > h1 {
     text-align: center;
 }
 div > p {
-    padding: 5px;
+    padding: 8px;
     font-size: 12px;
 }
 
@@ -70,6 +71,7 @@ footer {
 
 footer > p {
     font-size: 8px;
+    text-align: center;
 }
 
 footer > p > a {
