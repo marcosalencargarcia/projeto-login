@@ -56,3 +56,29 @@ div > p {
     padding: 5px;
     font-size: 12px;
 }
+
+footer {
+    position: absolute;
+    top: 100%;
+    width: 100vw;
+    height: 30px;
+    transform: translate(0%, -100%);
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px;
+}
+
+footer > p {
+    font-size: 8px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: #154EA3;
+    font-weight: bolder;
+}
+
+footer > p > a:hover {
+    color: #F0C878;
+}
+
