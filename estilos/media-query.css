@@ -35,6 +35,10 @@ Extra large devices (large laptops and desktops, 1200px and up)
         width: 60vw;
     }
 
+    section p {
+        font-size: 14px;
+    }
+
  }
 
  @media only screen and (min-width: 1200px) {
@@ -45,10 +49,12 @@ Extra large devices (large laptops and desktops, 1200px and up)
 
     div#imagem {
         width: 50%;
+        float: right;
     }
 
     div#formulario {
         width: 50%;
+        float: left;
     }
  }
 

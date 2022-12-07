@@ -35,7 +35,7 @@ section {
     background-color: white;
     border-radius: 15px;
     width: 300px;
-    height: 500px;
+    height: 520px;
     overflow: hidden;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.256);
     transition: width .3s, height .3s;
@@ -49,13 +49,62 @@ div#imagem {
     height: 200px;
 }
 
+div#formulario {
+    padding: 10px;
+}
+
 div > h1 {
     padding: 5px;
     text-align: center;
 }
 div > p {
-    padding: 8px;
+    padding: 5px;
     font-size: 12px;
+}
+
+form input[type=submit] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #154EA3;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    cursor: pointer;
+}
+
+div.campos {
+    background-color: #F0C878;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+form input[type=submit]:hover {
+    background-color: #1b67d8;
+}
+
+div > a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #154EA3;
+    color: #154EA3;
+    padding: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+div > a:hover {
+    background-color: #1b67d8;
+    color: white;
+}
+
+form > div > label > p {
+    display: none;
 }
 
 footer {
