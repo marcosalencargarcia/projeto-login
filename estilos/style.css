@@ -35,7 +35,7 @@ section {
     background-color: white;
     border-radius: 15px;
     width: 300px;
-    height: 520px;
+    height: 550px;
     overflow: hidden;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.256);
     transition: width .3s, height .3s;
@@ -58,7 +58,7 @@ div > h1 {
     text-align: center;
 }
 div > p {
-    padding: 5px;
+    padding: 10px;
     font-size: 12px;
 }
 
@@ -78,7 +78,26 @@ div.campos {
     background-color: #F0C878;
     border-radius: 5px;
     margin: 5px 0px;
-    padding: 10px;
+    padding: 5px;
+    height: 50px;
+}
+
+div.campos > label > span {
+    color: #0d3166;
+    transform: translateY(15%);
+}
+
+div.campos > input {
+    width: calc(100% - 30px);
+    height: calc(100%);
+    padding: 15px 5px;
+    font-size: 16px;
+    background-color: #a6b6cd;
+    border-radius: 5px;
+}
+
+div.campos > input:focus-within {
+    background-color: white;
 }
 
 form input[type=submit]:hover {
@@ -115,18 +134,19 @@ footer {
     transform: translate(0%, -100%);
     background-color: white;
     border-radius: 15px 15px 0px 0px;
-    padding: 10px;
+    padding: 5px;
 }
 
 footer > p {
-    font-size: 8px;
     text-align: center;
+    font-size: 12px;
 }
 
-footer > p > a {
+footer > p > small > a {
     text-decoration: none;
     color: #154EA3;
     font-weight: bolder;
+    font-size: 12px;
 }
 
 footer > p > a:hover {

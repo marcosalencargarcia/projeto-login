@@ -13,6 +13,7 @@ Extra large devices (large laptops and desktops, 1200px and up)
  @media only screen and (min-width: 768px) {
     section {
         width: 70vw;
+        height: 500px;
     }
     div#imagem {
         float: left;
@@ -24,15 +25,15 @@ Extra large devices (large laptops and desktops, 1200px and up)
         float: right;
         width: 60%;
         height: 100%;
-        padding: 45px;
+        padding: 40px;
     }
 
     h1 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     div > p {
-        font-size: 16px;
+        font-size: 14px;
         padding: 40px 0px;
     }
 
