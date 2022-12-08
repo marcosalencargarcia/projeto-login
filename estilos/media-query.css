@@ -27,6 +27,17 @@ Extra large devices (large laptops and desktops, 1200px and up)
         padding: 45px;
     }
 
+    h1 {
+        font-size: 2.5em;
+    }
+
+    div > p {
+        font-size: 16px;
+        padding: 40px 0px;
+    }
+
+
+
  }
 
  @media only screen and (min-width: 992px) {
