@@ -35,7 +35,7 @@ section {
     background-color: white;
     border-radius: 15px;
     width: 300px;
-    height: 550px;
+    height: 75%;
     overflow: hidden;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.256);
     transition: width .3s, height .3s;
